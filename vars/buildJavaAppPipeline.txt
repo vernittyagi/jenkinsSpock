@@ -1,0 +1,12 @@
+A decomposed global variable with each individual build step encapsulated as a separate global variable.
+
+<ul>
+    <li>Checkout code</li>
+    <li>Compile</li>
+    <li>Unit Tests</li>
+    <li>Integration Tests</li>
+    <li>Package Artifacts (as jars)</li>
+    <li>Publish to Nexus</li>
+    <li>Publish to Artifactory</li>
+    <li>runs any additional post build steps (passed in)</li>
+</ul>
